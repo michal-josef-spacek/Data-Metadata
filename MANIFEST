@@ -16,8 +16,13 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 Metadata.pm
+Metadata/KeyValue.pm
 README
+t/Data-Metadata-KeyValue/01-use.t
+t/Data-Metadata-KeyValue/02-version.t
 t/Data-Metadata/01-use.t
 t/Data-Metadata/02-version.t
+xt/Data-Metadata-KeyValue/01-pod_coverage.t
+xt/Data-Metadata-KeyValue/02-pod.t
 xt/Data-Metadata/01-pod_coverage.t
 xt/Data-Metadata/02-pod.t
