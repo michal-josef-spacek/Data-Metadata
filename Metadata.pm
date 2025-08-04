@@ -4,7 +4,8 @@ use strict;
 use warnings;
 
 use Mo qw(build default is);
-use Mo::utils 0.28 qw(check_array_object check_number_id);
+use Mo::utils 0.28 qw(check_number_id);
+use Mo::utils::Array qw(check_array_object);
 
 our $VERSION = 0.06;
 

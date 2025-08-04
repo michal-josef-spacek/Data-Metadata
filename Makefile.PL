@@ -20,6 +20,7 @@ readme_from 'Metadata.pm';
 recursive_author_tests('xt');
 requires 'Mo' => 0;
 requires 'Mo::utils' => 0.28;
+requires 'Mo::utils::Array' => 0;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/Data-Metadata/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Data-Metadata';
 resources 'repository' => 'git://github.com/michal-josef-spacek/Data-Metadata';
