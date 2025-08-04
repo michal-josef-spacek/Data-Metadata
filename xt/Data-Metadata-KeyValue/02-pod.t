@@ -12,5 +12,5 @@ SKIP: {
 		skip 'Perl version lesser then 5.8.0.', 1;
 	}
 	require Test::Pod;
-	Test::Pod::pod_file_ok(File::Object->new->up(2)->file('Metadata', 'Metadata.pm')->s);
+	Test::Pod::pod_file_ok(File::Object->new->up(2)->file('Metadata', 'KeyValue.pm')->s);
 };
