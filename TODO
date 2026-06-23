@@ -2,7 +2,8 @@ TODO
 ====
 1. First version with key/value storage.
 2. Doc.
-3.
+3. Check key and value for string.
+4.
 
 Applied
 =======
