@@ -26,6 +26,9 @@ t/Data-Metadata-KeyValue/05-key.t
 t/Data-Metadata-KeyValue/06-value.t
 t/Data-Metadata/01-use.t
 t/Data-Metadata/02-version.t
+t/Data-Metadata/03-new.t
+t/Data-Metadata/04-id.t
+t/Data-Metadata/05-key_values.t
 xt/Data-Metadata-KeyValue/01-pod_coverage.t
 xt/Data-Metadata-KeyValue/02-pod.t
 xt/Data-Metadata/01-pod_coverage.t
