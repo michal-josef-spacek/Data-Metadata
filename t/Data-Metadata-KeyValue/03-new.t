@@ -4,7 +4,7 @@ use warnings;
 use Data::Metadata::KeyValue;
 use English;
 use Error::Pure::Utils qw(clean);
-use Test::More 'tests' => 4;
+use Test::More 'tests' => 5;
 use Test::NoWarnings;
 
 # Test.
@@ -27,4 +27,15 @@ eval {
 };
 is($EVAL_ERROR, "Parameter 'key' is required.\n",
 	"Parameter 'key' is required.");
+clean();
+
+# Test.
+eval {
+	Data::Metadata::KeyValue->new(
+		'id' => 'bad',
+		'key' => 'text',
+	);
+};
+is($EVAL_ERROR, "Parameter 'id' must be a natural number.\n",
+	"Parameter 'id' must be a natural number (bad).");
 clean();
