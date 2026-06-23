@@ -1,5 +1,7 @@
 Changes
 CONCEPT
+examples/data_metadata.pl
+examples/data_metadata_keyvalue.pl
 inc/Module/Install.pm
 inc/Module/Install/AuthorRequires.pm
 inc/Module/Install/AuthorTests.pm
