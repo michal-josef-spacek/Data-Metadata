@@ -21,10 +21,10 @@ has key_values => (
 sub BUILD {
 	my $self = shift;
 
-	# Check id.
+	# Check 'id'.
 	check_number_id($self, 'id');
 
-	# Check key_values.
+	# Check 'key_values'.
 	check_array_object($self, 'key_values', 'Data::Metadata::KeyValue');
 
 	return;

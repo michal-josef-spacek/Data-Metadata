@@ -23,7 +23,7 @@ has value => (
 sub BUILD {
 	my $self = shift;
 
-	# Check id.
+	# Check 'id'.
 	check_number_id($self, 'id');
 
 	return;
