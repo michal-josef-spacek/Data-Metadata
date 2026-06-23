@@ -5,4 +5,6 @@ use Test::NoWarnings;
 use Test::Pod::Coverage 'tests' => 2;
 
 # Test.
-pod_coverage_ok('Data::Metadata::KeyValue', 'Data::Metadata::KeyValue is covered.');
+pod_coverage_ok('Data::Metadata::KeyValue',
+	{ 'also_private' => ['BUILD'] },
+	'Data::Metadata::KeyValue is covered.');
