@@ -4,8 +4,8 @@ use strict;
 use warnings;
 
 use Mo qw(build is);
-use Mo::utils 0.28 qw(check_number_id);
 use Mo::utils::Array qw(check_array_object check_array_required);
+use Mo::utils::Number 0.08 qw(check_positive_natural);
 
 our $VERSION = 0.01;
 
@@ -21,7 +21,7 @@ sub BUILD {
 	my $self = shift;
 
 	# Check 'id'.
-	check_number_id($self, 'id');
+	check_positive_natural($self, 'id');
 
 	# Check 'key_values'.
 	check_array_object($self, 'key_values', 'Data::Metadata::KeyValue');

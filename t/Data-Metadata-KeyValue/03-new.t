@@ -4,7 +4,7 @@ use warnings;
 use Data::Metadata::KeyValue;
 use English;
 use Error::Pure::Utils qw(clean);
-use Test::More 'tests' => 5;
+use Test::More 'tests' => 7;
 use Test::NoWarnings;
 
 # Test.
@@ -36,6 +36,28 @@ eval {
 		'key' => 'text',
 	);
 };
-is($EVAL_ERROR, "Parameter 'id' must be a natural number.\n",
-	"Parameter 'id' must be a natural number (bad).");
+is($EVAL_ERROR, "Parameter 'id' must be a positive natural number.\n",
+	"Parameter '%s' must be a positive natural number (bad).");
+clean();
+
+# Test.
+eval {
+	Data::Metadata::KeyValue->new(
+		'id' => 0,
+		'key' => 'text',
+	);
+};
+is($EVAL_ERROR, "Parameter 'id' must be a positive natural number.\n",
+	"Parameter '%s' must be a positive natural number (0).");
+clean();
+
+# Test.
+eval {
+	Data::Metadata::KeyValue->new(
+		'id' => 1.1,
+		'key' => 'text',
+	);
+};
+is($EVAL_ERROR, "Parameter 'id' must be a positive natural number.\n",
+	"Parameter '%s' must be a positive natural number (1.1).");
 clean();
