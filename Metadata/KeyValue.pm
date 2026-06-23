@@ -6,7 +6,7 @@ use warnings;
 use Mo qw(build is);
 use Mo::utils 0.28 qw(check_number_id check_required);
 
-our $VERSION = 0.06;
+our $VERSION = 0.01;
 
 has id => (
 	is => 'ro',

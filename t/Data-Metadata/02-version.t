@@ -6,4 +6,4 @@ use Test::More 'tests' => 2;
 use Test::NoWarnings;
 
 # Test.
-is($Data::Metadata::VERSION, 0.06, 'Version.');
+is($Data::Metadata::VERSION, 0.01, 'Version.');

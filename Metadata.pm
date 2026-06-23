@@ -7,7 +7,7 @@ use Mo qw(build is);
 use Mo::utils 0.28 qw(check_number_id);
 use Mo::utils::Array qw(check_array_object check_array_required);
 
-our $VERSION = 0.06;
+our $VERSION = 0.01;
 
 has id => (
 	is => 'ro',
