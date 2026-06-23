@@ -1,0 +1,67 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.88.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: RIPEMD160
+
+SHA256 cc6f6903832702e2c3c74d6630ee225f8a0dcf3cdca7d2bc25c7a65346455310 CONCEPT
+SHA256 667cf921b008af05d082ade88599faf3305066ba0407ce2de666cf34b2d5e711 Changes
+SHA256 f41ca75591a4efed31ac3636bc9c73b6df01e611e26a9d91a61deee01101f6fe LICENSE
+SHA256 7e2207cc6a202cda630972fb623f039c0aeaebc3ced9345bb50ccc462533aa01 MANIFEST
+SHA256 6a194ecf26a5a226f9cd98f65bef1e574317ed62953fcfe11bf1919f0218fecb META.yml
+SHA256 acf5fa4ce5add52f74a38187a9eaf80aa0242af2e6d331ff7bc57d9e70640d54 Makefile.PL
+SHA256 c75f42e9ca4217f3756aa9682c8bb7048e96a2479a8933b98af0e34ae0360b17 Metadata.pm
+SHA256 df795bff7841e6c647973da2561cbe09014e7e667970c26f57976457083a901a Metadata/KeyValue.pm
+SHA256 a2e43d3e6e63e2a1618c39024f55934259be3374197c42c45da4c557e9c2f197 README
+SHA256 f8d9a02788d46b003cb4a97180d7e9d40c0e13c26241dbb25e7f4087ce3b49a2 examples/data_metadata.pl
+SHA256 898d922a55b17e712e29d1bb36cc7b059a38b7fea273cc38b784432adeccb423 examples/data_metadata_keyvalue.pl
+SHA256 cd5397bbe618f5bbd4e12a33b0cf5d21114e771c2dbd0ce28e2135beb52c35a8 inc/Module/Install.pm
+SHA256 8bd506c33fb78f10f6451413e931ca23541fcc4eebe05fcb7c7c9577341223c4 inc/Module/Install/AuthorRequires.pm
+SHA256 1b5430a46a35142ef8914d8c745196fca825defc9dfa7e389299bf294613825e inc/Module/Install/AuthorTests.pm
+SHA256 798836f9ccb8d204b1be31fc3835631f57e9d818b21a8f0d14bfcfb82ff4a72a inc/Module/Install/Base.pm
+SHA256 d64cd4c16f83c5baf11f64a44bea3a0abc060a49da5aba040f0eb01394bf75ab inc/Module/Install/Can.pm
+SHA256 65d7a6098bf3f829e8c1c2865476d3537aa6f0ad0ffc9149e10812c856529043 inc/Module/Install/Fetch.pm
+SHA256 70c4b77acab3ff51dfb318110369607cb109e1c319459249623b787cf3859750 inc/Module/Install/Makefile.pm
+SHA256 14556386168007ce913e669fc08a332ccdb6140246fd55a90c879b5190c1b57a inc/Module/Install/Metadata.pm
+SHA256 53825bc78e4c910b888160bc148c8bc211be58e02b99c8edcbf4854f95faa049 inc/Module/Install/ReadmeFromPod.pm
+SHA256 4c746c02c5cc19bed4c352e76205b4adff4c45ce8310d71294e1b83c059659c2 inc/Module/Install/Win32.pm
+SHA256 d3d9b4583243c470ae895defa4c44564485b53693cba1c50ab0320768f443e97 inc/Module/Install/WriteAll.pm
+SHA256 44f8ab03fea0adc5543d6ea8b23a23fbcb5731ac91a27fa56771abc241f44d6e t/Data-Metadata-KeyValue/01-use.t
+SHA256 bf4013aa222adf0a93769e1e9a6fdc31c1571cde1a0140e27cd069e6621f29a6 t/Data-Metadata-KeyValue/02-version.t
+SHA256 59eb241c36fdb897694fa5c3c9118ad01a64761c5b3204367d31474361fb0806 t/Data-Metadata-KeyValue/03-new.t
+SHA256 3e5e0a257d81fbce840eebef145bc69bd0f7b2e2319cdb3b837262655e633bda t/Data-Metadata-KeyValue/04-id.t
+SHA256 4d12bb1f25b74afdbdc00ce5e431ba29c82500277cd8924e7c9e034378007908 t/Data-Metadata-KeyValue/05-key.t
+SHA256 adab35c14d37d427e4d9503d9907728400b3c4b0d384ec4461e4eb690a1374f8 t/Data-Metadata-KeyValue/06-value.t
+SHA256 779ba3c8f871ede66f499f8043d5632b3c176e05e8cb930ee0904c73a7db91be t/Data-Metadata/01-use.t
+SHA256 169dfb267d8d30ff31f391b99e5d3b7425c52719f489767d743daf82430ad4d8 t/Data-Metadata/02-version.t
+SHA256 7e9ee89d18a97e5f2eb6236b0d9f3021ae21dd54bf4cfffdfdb22693e867ccc2 t/Data-Metadata/03-new.t
+SHA256 f2feed471514cc6f088e63fc5e5c38d72eabdf00d8fdb64e2b4f0458ccdc6bc7 t/Data-Metadata/04-id.t
+SHA256 361524b373038e17cad0fc28dfa64d23aa49c02c68026d6705a24639a5575c14 t/Data-Metadata/05-key_values.t
+SHA256 d017836c8660f461b81dc5f4c2731941a724ee34bbc118864c00074184d10447 xt/Data-Metadata-KeyValue/01-pod_coverage.t
+SHA256 4b95044301f68d753dc86d1759fa8ef60cf852100a7b5658f7dfefbf1a72e963 xt/Data-Metadata-KeyValue/02-pod.t
+SHA256 56b6b59f42f357acdd7c4d3cddfbe6e279c9c524845513bffa9b18942ff7b77e xt/Data-Metadata/01-pod_coverage.t
+SHA256 62d6d9336f45b0654e287e2e8a5632356cd67a19e1cedad3c053c5b0c544d4ad xt/Data-Metadata/02-pod.t
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBAwAdFiEECAMiMrHl7JYa0rZPZ58rGyDXs5UFAmo6bFsACgkQZ58rGyDX
+s5WggAwA0/0ynImZZE6LW0ryPz0UefBFrBkC6Z4EP0RM75dQGhDu837IGebgMpsM
+LNQqPpb3ohdz0R1KlY2bLYIUzspqjlSontxKYhkjqsRjCM3/DMye2jQFj1wcFmjc
+so/wjcAs8iv6o28q6WFJddixTweMK6QW6dyzkjtNYdKARDMv1YQibEw5h68eSJOq
+W0lc9oKdmEnZJTTpIUH3o38H6ggYj3ir3W8cegB2pUhVULqllX/d5jnGBwuWDCsj
+e+KUB2aBMuGXGS+tFHJWNd8okzjGTCmQceSg86hht3run4He9b7F5k3O1ALx6a+u
+VceynhZ3JzC2RNoURrmcSChth42CGeA62x6L1cJKniYKFPwSy6UNekn1vlFOQ8Db
+PpeGZMvk5Byc9z6B4jPNxY/ql2gvK5sImBbRcZyuq/4p5OalWeexOYeXULfO+rGq
+tHGVaQ37iR4fAMIOebXBZcq55cgjH1XPXqn+aj6HNUhwyO8psDh2Bhs8K7++W1Rx
+pY09jTXi
+=aHGr
+-----END PGP SIGNATURE-----
